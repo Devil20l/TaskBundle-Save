@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bundle & Save</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Bundle & Save</h2>
+
+    <form id="bundle-form">
+      <div class="bundle-option selected" data-pairs="1">
+        <label>
+          <input type="radio" name="bundle" value="1" checked />
+          <div class="bundle-header">
+            <span class="dot"></span>
+            <div>
+              <strong>1 Pair</strong><br>
+              <span>DKK 195.00</span>
+            </div>
+            <div class="right">
+              <span class="discount">50% OFF</span>
+            </div>
+          </div>
+          <div class="selectors">
+            <div class="pair-selector">
+              <span>#1</span>
+              <select><option>Size</option><option>S</option><option>M</option><option>L</option></select>
+              <select><option>Color</option><option>Red</option><option>Blue</option></select>
+            </div>
+                        <div class="pair-selector">
+              <span>#2</span>
+              <select><option>Size</option><option>S</option><option>M</option><option>L</option></select>
+              <select><option>Color</option><option>Red</option><option>Blue</option></select>
+            </div>
+          </div>
+        </label>
+      </div>
+
+      <div class="bundle-option" data-pairs="2">
+        <label>
+          <input type="radio" name="bundle" value="2" />
+          <div class="bundle-header">
+            <span class="dot"></span>
+            <div>
+              <strong>2 Pair</strong><br>
+              <span>DKK 345.00 </span>
+            </div>
+            <div class="right">
+              <span class="tag">Most Popular</span><br>
+              <span class="discount">40% OFF</span>
+            </div>
+          </div>
+          <div class="selectors">
+            <div class="pair-selector">
+              <span>#1</span>
+              <select><option>Size</option><option>S</option><option>M</option><option>L</option></select>
+              <select><option>Color</option><option>Red</option><option>Blue</option></select>
+            </div>
+            <div class="pair-selector">
+              <span>#2</span>
+              <select><option>Size</option><option>S</option><option>M</option><option>L</option></select>
+              <select><option>Color</option><option>Red</option><option>Blue</option></select>
+            </div>
+          </div>
+        </label>
+      </div>
+
+      <div class="bundle-option" data-pairs="3">
+        <label>
+          <input type="radio" name="bundle" value="3" />
+          <div class="bundle-header">
+            <span class="dot"></span>
+            <div>
+              <strong>3 Pair</strong><br>
+              <span>DKK 528.00</span>
+            </div>
+            <div class="right">
+              <span class="discount">60% OFF</span>
+            </div>
+          </div>
+          <div class="selectors">
+            <div class="pair-selector">
+              <span>#1</span>
+              <select><option>Size</option><option>S</option><option>M</option><option>L</option></select>
+              <select><option>Color</option><option>Red</option><option>Blue</option></select>
+            </div>
+            <div class="pair-selector">
+              <span>#2</span>
+              <select><option>Size</option><option>S</option><option>M</option><option>L</option></select>
+              <select><option>Color</option><option>Red</option><option>Blue</option></select>
+            </div>
+
+          </div>
+        </label>
+      </div>
+
+      <div class="footer">
+        <p class="shipping">Free 2 Day Shipping</p>
+        <p class="total">Total: <strong>DKK 360.00</strong></p>
+        <button type="submit">+ Add to Cart</button>
+        <p class="powered">© Powered by Pumper</p>
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
